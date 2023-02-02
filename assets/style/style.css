@@ -1,0 +1,756 @@
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+/*==============header Styles START===============*/
+.p-header-container{
+      background-color: #030340;
+    height: 100px;
+
+}
+.header-block{
+      display: flex;
+    align-items: center;
+}
+.p-admin-name{
+     max-width: 350px;
+     width: 100%;
+    font-size: 20px;
+}
+
+
+
+/*=================   Menu Styles START=============*/
+.p-menu-block{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 350px);
+}
+.p-nav-block ul{
+  display: flex;
+
+
+}
+.p-nav-block ul li{
+    list-style: none;
+    padding: 10px;
+
+}
+.p-nav-block ul li a{
+     text-decoration: none;
+   text-align: center;
+     margin: 15px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+}
+.p-nav-block ul li a i  {
+     margin: 5px;
+    color: blueviolet;
+}
+/*=================   Menu Styles END=============*/
+/*=================ADMIN USER STYLE START=====================*/
+.p-admin-user-block{
+     display: flex;
+    align-items: center;
+}
+.p-admin-user-block i{
+     font-size: 20px;
+    color: blueviolet;
+}
+.svg-border-radius{
+      min-width: 40px;
+       min-height: 40px;
+    margin: 10px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.svg-border-radius span{
+     display: block;
+
+}
+
+/*=================ADMIN USER STYLE END=====================*/
+/*==============header Styles END===============*/
+.P-binance-container{
+      display: flex;
+    background-color: black;
+
+}
+/*========================Sidebar Style START==================*/
+
+.dashboard-container{
+ display: flex;
+    gap: 20px;
+ height: 100vh;
+}
+
+.information-container{
+  max-width: 350px;
+    width: 100%;
+    background-color: black ;
+    margin-top: 20px;
+}
+
+
+
+
+/*==========================input Styles Start===============*/
+.p-min-input-block{
+      display: flex;
+    position: relative;
+}
+.p-big-input-block{
+     position: relative;
+}
+.p-min-input-block label{
+     width: 50%;
+     padding: 2px;
+}
+.p-min-input-block label input[type = "password"],
+.p-min-input-block label input[type = "text"],
+.p-big-input-block label input[type = "search"]{
+     width: 100%;
+    background-color: #030340;
+    border-radius: 10px;
+    padding: 10px 36px 12px 12px;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    border: none;
+
+}
+.p-big-input-block label input[type = "search"]::placeholder{
+    text-align: center;
+}
+.input-eye{
+     position: absolute;
+    color: blueviolet;
+    top: 28%;
+    left: 41%;
+}
+.input-sort{
+    position: absolute;
+    color: blueviolet;
+    top: 28%;
+    right: 3%;
+}
+.icon-search{
+    position: absolute;
+    color: blueviolet;
+    left: 25%;
+    top: 10px;
+
+}
+.p-big-input-block label input[type = "search"]:focus+.icon-search{
+      display: none;
+}
+
+/*==========================input Styles END===============*/
+
+/*=======================metamask Styles Start====================*/
+.metamask-block{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.metamask-block{
+     display: flex;
+    align-items: center;
+}
+.metamask-block p{
+      color: white;
+}
+.metamask-img img{
+      width: 30px;
+    height: 30px;
+}
+.metamask-img span{
+      color: red;
+    margin: 10px;
+}
+.metamask-icons i{
+     color: blueviolet;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/*=======================metamask Styles Start====================*/
+
+/*================binance Style start===================*/
+.p-binance-container{
+     background-color: #030340;
+    padding: 10px;
+    border-radius: 10px;
+}
+.p-binance-container span{
+     color: white;
+}
+.p-binance-start{
+    border-bottom: 2px solid cadetblue;
+    padding: 5px;
+}
+
+.binance-block{
+   display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    width: 190px;
+
+}
+
+.bianace-svg span{
+    margin: 0 10px;
+}
+.bianace-svg{
+     display: flex;
+}
+.bianace-svg img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.binance-prise{
+     margin-top: 10px;
+}
+.binance-percent span{
+    color: green;
+}
+.binance-graphic {
+    margin-top: 10px;
+}
+
+
+
+/*================binance Style end===================*/
+
+/*===================buttons style Start ======================*/
+
+.buttons-block img{
+   width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.binance-saving{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    color: white;
+
+}
+.binance-saving span{
+    margin: 0 10px;
+}
+
+/*===================buttons style END ======================*/
+/*=========================coiinbase Style start========================*/
+.coinbase-block{
+     padding: 5px;
+}
+.coinbase-boxes{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.coinbase-boxes p{
+     color: white;
+}
+.coinbase-boxes span{
+     color: red;
+}
+.coinbase-boxes i {
+     color: blueviolet;
+    font-size: 18px;
+}
+.coinbase-boxes img{
+     width: 20px;
+    height: 20px;
+}
+
+/*=========================coiinbase Style END========================*/
+/*==========================Subscribe Style start======================*/
+ .subscribe-block{
+      margin-top: 20px;
+     background-color:#030340 ;
+     padding: 10px;
+
+ }
+.subscribe-block i {
+    display: block;
+    text-align: end;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.subscribe-block p{
+     color: white;
+}
+.subscribe-block button{
+     text-align: center;
+
+}
+.subscribe-btn button{
+     width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+
+/*==========================Subscribe Style END======================*/
+/*========================Sidebar Style END==================*/
+
+/*===========================ADMIN CONTAINER Style START=-======================*/
+/*=====================GARAPHIC LINE STYLES Start======================*/
+#my-line{
+
+}
+.p-graphic-block{
+     width: calc(100% - 350px);
+    margin-top: 20px;
+    background-color: black;
+}
+.graphic-container {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.graphic-line{
+    background-color:#030340 ;
+    width: 600px;
+    height:400px;
+    border-radius: 20px;
+}
+.p-line-tools{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+.p-line-years{
+     display: flex;
+
+}
+.p-line-years span{
+     color: #ffffff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.p-line-years select{
+     background-color: black;
+    color: white;
+    outline: none;
+    width: 110px;
+    margin: 0 10px;
+
+}
+.p-line-contact span{
+     color: blueviolet;
+    font-size: 20px;
+}
+.line-contact-online{
+     display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.line-contact-online span{
+      color: white;
+    margin:  0 10px;
+    font-size: 10px;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+.line-checkbox-currency{
+     display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.line-checkbox-currency label{
+     color: white;
+    margin: 0 10px;
+}
+/*=====================GARAPHIC LINE STYLES End======================*/
+
+/*========================Graphic bar Styels Start=============*/
+
+
+#my-bar{
+     margin-top: 20px;
+}
+
+.graphic-bar{
+    background-color:#030340 ;
+     width: 470px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.p-bar-title{
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.p-bar-title p{
+    color: white;
+    font-size: 20px;
+}
+.p-bar-title span{
+      color: blueviolet;
+    font-size: 20px;
+}
+/*=====================Graphic bar end===================*/
+
+/*=====================Graphic Polar Area Start================*/
+.graphic-polar-area{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#030340 ;
+    border-radius: 20px;
+}
+.polar-area-tools{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.polar-area-tools span{
+     color: white;
+    font-size: 20px;
+}
+.polar-area{
+     width: 70%;
+    height: 80%;
+    background-color: blueviolet;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.polar-area-hours {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+
+}
+.polar-area-hours span {
+  color: white;
+    font-size: 20px;
+}
+.polar-get-complicated{
+     width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+.polar-get-complicated p {
+    font-size: 20px;
+    padding: 0 0 10px;
+}
+.polar-come-down{
+     width: 100%;
+    height: 50%;
+    background-color: #924bd2;
+}
+.polar-come-down p{
+      font-size: 20px;
+      padding: 0 0 10px;
+}
+/*=====================Graphic Polar Area Start================*/
+
+/*===================GRAPHIC BAR 2  STYLE START======================*/
+.graphic-bar-example-2{
+    width: 450px;
+    height: 370px;
+    background-color: #030340;
+    border-radius: 20px;
+}
+.example-title{
+     display: flex;
+     width: 55%;
+     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.title-svg{
+     width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.title-money span,i{
+     color: blueviolet;
+    font-size: 20px;
+}
+.title-money p{
+     color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+.bar-chart-block{
+     position: relative;
+    overflow: hidden;
+}
+.bar-chart-block img{
+      width: 450px;
+    height: 270px;
+    transition: all .3s;
+    cursor: pointer;
+object-fit: cover;
+
+
+}
+.bar-chart-block img:hover{
+     transform: scale(1.1);
+    transition: all .3s;
+}
+.bar-dark-info{
+     position: absolute;
+    left: 13%;
+    top: 80%;
+
+}
+.bar-dark-info span{
+      color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+/*===================GRAPHIC BAR 2  STYLE END======================*/
+/*=====================Analytics start==================*/
+.analytics-container{
+     background-color: #030340;
+    width: 450px;
+    height: 370px;
+    border-radius: 20px;
+}
+.analytics-info{
+     display: flex;
+    justify-content: space-between;
+}
+.analytics-info p{
+     color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+.analytics-tools{
+
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools-block{
+    width: 400px;
+    height: 50px;
+    border: 2px solid blueviolet;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.tools-block span,i{
+     color: blueviolet;
+}
+.tools-block p{
+     color: white;
+}
+
+/*=====================Analytics END==================*/
+/*================================CURRENCY STYLES START=====================*/
+.currency-container{
+    width: 550px;
+    height: 370px;
+    padding: 10px;
+    background-color: #030340;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.currency-down-get span{
+     color: white;
+}
+.currency-tools{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.currency-tools p {
+     color: white;
+    font-size: 20px;
+}
+.get-complicated-down {
+     width: 500px;
+    height: 80px;
+    box-shadow: 2px 3px  10px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+
+
+}
+.currency-icon{
+    margin-top: 10px;
+}
+.currency-icon span {
+    font-size: 20px;
+}
+.currency-info{
+    box-shadow: 2px 3px  10px blueviolet;
+    width: 130px;
+    height: 40px;
+
+}
+.currency-info p{
+      color: white;
+    font-size: 20px;
+}
+.graphic-currency {
+     width: 500px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.currency-hours span{
+    color: white;
+    margin: 0 10px;
+}
+.currency-hours{
+     position: absolute;
+    left: 0;
+    bottom: 20px;
+
+}
+
+
+
+.graphic-currency img{
+      width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 3px  10px black;
+    transition: .3s;
+
+
+}
+.graphic-currency img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+.balance-container{
+     display: flex;
+    width: 500px;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
+.asset-balance{
+     margin: 0 20px;
+    position: relative;
+}
+.asset-balance::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    bottom: 30px;
+}
+.margin-balance {
+    margin: 0 30px;
+    position: relative;
+}
+.margin-balance::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    bottom: 30px;
+}
+
+.wallet-balance{
+    margin: 0 20px;
+    position: relative;
+
+}
+.wallet-balance::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    bottom: 30px;
+}
+.balance-container span{
+    color: white;
+    font-size: 20px;
+}
+.balance-container p{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+/*==============================FOoTER start=======================*/
+.footer-block{
+     width: 100%;
+    height: 400px;
+    background-color:#030340 ;
+    border-radius: 20px;
+}
+
+
+/*================================CURRENCY STYLES END=====================*/
+
+
+

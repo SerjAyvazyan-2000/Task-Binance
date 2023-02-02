@@ -1,0 +1,11 @@
+:root {
+    --transition-all   : 0.3s;
+    --white-color      : #ffffff;
+    --black-color      : #000000;
+    --main-color       : #053529;
+    --main-color-light : #053529;
+    --main-color-gold  : #C0914F;
+    --main-color-blue : #030340;
+    --font-main-size   : 18px;
+
+}

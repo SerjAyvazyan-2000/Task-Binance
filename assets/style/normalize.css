@@ -1,0 +1,181 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+iframe,
+ol,
+ul,
+li,
+form,
+label,
+i,
+footer,
+header,
+menu,
+nav,
+a,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+video,
+canvas,
+section,
+    /*commonly used tags*/
+applet,
+object,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+hgroup,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+dl,
+dt,
+dd,
+fieldset,
+legend,
+article,
+aside,
+details,
+embed,
+figure,
+figcaption,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+center,
+ruby {
+    margin         : 0;
+    padding        : 0;
+    border         : 0;
+    font-size      : 100%;
+    vertical-align : baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display  : block;
+    position : relative;
+}
+
+ol,
+ul {
+    list-style : none;
+    padding    : 0;
+    margin     : 0;
+}
+
+table {
+    width           : 100%;
+    border-collapse : collapse;
+    border-spacing  : 0;
+}
+
+* {
+    outline            : none !important;
+    -webkit-box-sizing : border-box;
+    box-sizing         : border-box;
+}
+
+a {
+    display         : inline-block;
+    text-decoration : none;
+}
+
+button {
+    cursor : pointer;
+}
+
+input,
+button,
+select {
+    display : inline-block;
+    padding : 0;
+    border  : 0;
+}
+
+img {
+    max-width : 100%;
+}
+
+
+.d_block {
+    display : block;
+}
+
+.d_none {
+    display : none;
+}
+
+body {
+    font-family      : sans-serif;
+}
+
+
+.container {
+    max-width     : 1920px;
+    width         : 100%;
+    padding-right : 15px;
+    padding-left  : 15px;
+    margin-right  : auto;
+    margin-left   : auto;
+}
+
+
+body::-webkit-scrollbar {
+    width : 6px;
+}
+
+/*!* Track *!*/
+/*body::-webkit-scrollbar-track {*/
+/*    background : var(--green-color);*/
+/*}*/
+
+/*!* Handle *!*/
+/*body::-webkit-scrollbar-thumb {*/
+/*    background : var(--pink-color);*/
+
+/*}*/
