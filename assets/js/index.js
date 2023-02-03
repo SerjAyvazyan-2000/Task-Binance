@@ -1,4 +1,4 @@
-// =====================================Graphic Line=====================
+
 const myLine = document.getElementById("my-line").getContext("2d")
 let lineChart = new Chart(myLine,{
    type:"line",
@@ -13,7 +13,6 @@ let lineChart = new Chart(myLine,{
         }]
     },
 })
-// =====================================Graphic Line=====================
 
 const myBar = document.getElementById("my-bar")
  let  barChart = new Chart(myBar,{
@@ -28,30 +27,6 @@ const myBar = document.getElementById("my-bar")
       },
 
  })
-
-// ===========================Graphic Bar===================
-
-const myBarExample2 = document.getElementById("my-bar-example-2")
-let barExample = new Chart(myBarExample2,{
-     type:'bar',
-     data:{
-           labels:["","","","","","","","","",""],
-         datasets:[{
-                label:"",
-                data:[10,12,8,14,13,16,7,18,15,20,17],
-               barPercentage:0.3,
-
-
-
-
-
-         }]
-
-     }
-})
-
-
-
 
 
 const usd = document.getElementById("usd")
