@@ -86,6 +86,8 @@
 .P-binance-container{
       display: flex;
     background-color: black;
+    height: auto;
+
 
 }
 /*========================Sidebar Style START==================*/
@@ -93,7 +95,7 @@
 .dashboard-container{
  display: flex;
     gap: 20px;
- height: 100vh;
+
 }
 
 .information-container{
@@ -165,6 +167,7 @@
     margin-top: 10px;
     justify-content: space-between;
 }
+
 .metamask-block{
      display: flex;
     align-items: center;
@@ -179,6 +182,15 @@
 .metamask-img span{
       color: red;
     margin: 10px;
+}
+.metamask-graphic img{
+     width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .metamask-icons i{
      color: blueviolet;
@@ -221,6 +233,14 @@
     width: 20px;
     height: 20px;
     border-radius: 5px;
+}
+.binance-graphic img{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .binance-prise{
      margin-top: 10px;
@@ -277,6 +297,11 @@
 .coinbase-boxes img{
      width: 20px;
     height: 20px;
+}
+.coibase-graphic img{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
 }
 
 /*=========================coiinbase Style END========================*/
@@ -480,6 +505,7 @@
     font-size: 20px;
     padding: 0 0 10px;
 }
+
 .polar-come-down{
      width: 100%;
     height: 50%;
@@ -625,7 +651,7 @@ object-fit: cover;
 .get-complicated-down {
      width: 500px;
     height: 80px;
-    box-shadow: 2px 3px  10px black;
+    box-shadow: 2px 3px  10px rgba(255, 255, 255, 0.23);
 
     display: flex;
     align-items: center;
@@ -643,7 +669,7 @@ object-fit: cover;
     font-size: 20px;
 }
 .currency-info{
-    box-shadow: 2px 3px  10px blueviolet;
+    box-shadow: 2px 3px  10px rgba(255, 255, 255, 0.23);
     width: 130px;
     height: 40px;
 
@@ -677,7 +703,7 @@ object-fit: cover;
       width: 100%;
     height: 100%;
     border-radius: 20px;
-    box-shadow: 2px 3px  10px black;
+    box-shadow: 2px 3px  10px rgba(255, 255, 255, 0.23);
     transition: .3s;
 
 
@@ -748,9 +774,89 @@ object-fit: cover;
     background-color:#030340 ;
     border-radius: 20px;
 }
+.p-holding{
+     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.p-holding p {
+     color: white;
+    font-size: 20px;
+}
+.table-block{
+}
+
+.holding-name{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
 
 
-/*================================CURRENCY STYLES END=====================*/
+}
+.holding-bg{
+    background-color: rgba(85, 85, 85, 0.33);
+
+}
+
+.holding-name p {
+    font-size: 20px;
+    min-width: 100px;
+    color: white;
+}
+.holding-name i{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.holding-info-border{
+     border-bottom: 4px solid rgba(255, 255, 255, 0.23);
+}
+.holding-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+.info-before::before{
+    content: 'A';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holding-info p{
+    color: white;
+    font-size: 20px;
+    min-width: 100px;
+}
+.holding-info p i {
+     font-size: 20px;
+    color: green;
+
+}
+.holding-info img{
+    width:100px;
+    border-radius: 10px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.holding-info i{
+    color: white;
+}
 
 
 
